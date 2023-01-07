@@ -109,3 +109,6 @@ print("\nExecutando statement a partir da connection")
 for result in results:
     print(result)
 
+# codigo conexao mongodb
+# client = pymongo.MongoClient("mongodb+srv://pedro123:<password>@cluster2mongodbatlas.hcqqrn7.mongodb.net/?retryWrites=true&w=majority", server_api=ServerApi('1'))
+# db = client.test
